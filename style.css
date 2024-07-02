@@ -1,0 +1,708 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parentdiv {
+  background-color: white;
+  height: 100px;
+  font-family: sans-serif;
+  color: gray;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.parentdiv1 {
+  gap: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 5%;
+  align-items: center;
+  margin-top: 2%;
+  align-content: center;
+}
+.seconddiv {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.Shapely {
+  font-size: xx-large;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+.i {
+  color: blue;
+  margin-top: 30px;
+}
+
+.parent-div {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(img/image7.jpeg);
+  align-content: center;
+  background-attachment: fixed;
+}
+.TEXT {
+  color: white;
+  font-size: 65px;
+  font-family: initial;
+  font-weight: 310;
+  text-align: center;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.hero2 {
+  display: block;
+}
+.ptags {
+  margin-top: 10px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.parentbutton {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.firstbutton {
+  background-color: violet;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondbutton {
+  background-color: transparent;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.firstbutton:hover {
+  background-color: blueviolet;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondbutton:hover {
+  background-color: black;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* new sec */
+
+.parent-div3SEO-sectiondiv {
+  height: 50vh;
+}
+.SEOsub-section-parentdiv {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.imagediv {
+  width: 50%;
+}
+.writeup {
+  width: 50%;
+}
+.writeup h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.writeup p {
+  font-size: large;
+  color: rgb(119, 115, 115);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.SEObutton {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.SEObutton:hover {
+  width: 200px;
+  height: 50px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Portfolio-section {
+  height: 70vh;
+  background-color: whitesmoke;
+}
+.Portfolio-parentdiv {
+  display: flex;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.Portfolio-writeup {
+  width: 50%;
+  margin-top: 88px;
+}
+.Portfolio-writeup h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.Portfolio-writeup p {
+  font-size: large;
+  color: rgb(119, 115, 115);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 73%;
+}
+.Portfoliobutton {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Portfolioimg {
+  width: 72%;
+  margin-top: 50px;
+}
+.Portfoliobutton:hover {
+  width: 200px;
+  height: 50px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.smallparallaxsection {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(img/image33.jpg);
+  align-content: center;
+}
+/* .smallparallaxparentdiv {
+  display: block;
+} */
+.parallaxtext {
+  color: white;
+  font-size: 65px;
+  font-family: initial;
+  font-weight: 310;
+  text-align: center;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.parallaxnote {
+  margin-top: 10px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+.button1 {
+  width: 200px;
+  height: 48px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.limitsection {
+  height: 30vh;
+}
+.limitparentdiv {
+  margin-bottom: 20px;
+}
+.limittext {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.limitnote {
+  text-align: center;
+  margin-top: 10px;
+  color: grey;
+}
+.buttonlimit {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.picture {
+  height: 200vh;
+  background-size: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(img/photowork5.jpg);
+  align-content: center;
+  background-attachment: fixed;
+}
+.latestsection {
+  height: 147vh;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+.latestsection h2 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.latestsection p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.photodiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  height: 150vh;
+}
+.photodiv div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.photodiv div {
+  width: calc(100% / 4);
+  cursor: pointer;
+  position: relative;
+}
+
+.photodiv div:hover .us {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .england {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .asia {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .china {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .korea {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .dubia {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .malay {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .austra {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .canada {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .london {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .santo {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photodiv div:hover .mal {
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* .img-parentdiv div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-parentdiv div {
+} */
+/* .img-parentdiv {
+  display: grid; */
+/* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+/* grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+} */
+
+/* what our coustomer said */
+.customer {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(img/wave.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  margin-top: 29%;
+}
+
+.pofcustomer {
+  margin-top: 200px;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.pofcustomer h1 {
+  text-align: center;
+  color: goldenrod;
+  font-size: xx-large;
+  margin-top: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.pofcustomer p {
+  text-align: center;
+  width: 80%;
+  display: flex;
+  color: blue;
+  font-size: medium;
+  font-family: tahoma;
+  justify-content: center;
+  align-content: center;
+  align-items: end;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-image: url(img/mike.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+}
+.john {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.client {
+  background-color: white;
+  height: 60vh;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+.parentclient {
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.logodiv {
+  display: flex;
+  grid-row-gap: 20px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  gap: 80px;
+}
+.logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 100px;
+}
+.logo div img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: flex;
+}
+
+/* what our coustomer said */
+@media (max-width: 834px) {
+  .SEOsub-section-parentdiv {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .imagediv {
+    width: 100%;
+  }
+  .writeup {
+    width: 100%;
+  }
+  .writeup p {
+    width: 100%;
+  }
+  .parent-div3SEO-sectiondiv {
+    height: auto;
+  }
+}
+
+@media (max-width: 834px) {
+  .Portfolio-parentdiv {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .Portfolioimg {
+    width: 100%;
+  }
+  .Portfolio-writeup {
+    width: 100%;
+    margin-top: 360px;
+  }
+  .Portfolio-writeup p {
+    width: 100%;
+  }
+  .Portfolio-section {
+    height: auto;
+  }
+}
+
+@media (max-width: 834px) {
+  .smallparallaxsection {
+    margin-top: 100px;
+    height: auto;
+  }
+}
+
+@media (max-width: 834px) {
+  .photodiv {
+    flex-wrap: wrap;
+    width: calc(100% / 1);
+  }
+  .john {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1024px) {
+}
