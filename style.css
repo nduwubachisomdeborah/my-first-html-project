@@ -647,7 +647,109 @@
   object-fit: cover;
   display: flex;
 }
-
+.faq {
+  height: 60vh;
+  background-color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  color: black;
+  gap: 200px;
+}
+.h {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 200;
+  font-style: italic;
+}
+.down {
+  margin-top: 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(174, 127, 236);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.down:hover {
+  margin-top: 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(247, 66, 247);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.foot {
+  background-color: black;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  gap: 52%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.A {
+  color: white;
+  display: flex;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.fot {
+  color: white;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.span {
+  color: gray;
+  font-style: normal;
+  font-family: tahoma;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.span:hover {
+  color: white;
+  font-style: normal;
+  font-family: tahoma;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  cursor: progress;
+}
 /* what our coustomer said */
 @media (max-width: 834px) {
   .SEOsub-section-parentdiv {
