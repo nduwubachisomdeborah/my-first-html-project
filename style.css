@@ -24,6 +24,8 @@
   align-items: center;
   margin-top: 2%;
   align-content: center;
+  font-size: large;
+  font-weight: 40;
 }
 .seconddiv {
   width: 95%;
@@ -34,6 +36,7 @@
 }
 .Shapely {
   font-size: xx-large;
+  font-weight: 100;
   margin-top: 2%;
   margin-left: 3%;
 }
@@ -335,13 +338,12 @@
   margin-top: 20px;
 }
 .picture {
-  height: 200vh;
-  background-size: 95%;
+  height: 100vh;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(img/photowork5.jpg);
   align-content: center;
-  background-attachment: fixed;
 }
 .latestsection {
   height: 147vh;
@@ -377,10 +379,9 @@
   cursor: pointer;
   position: relative;
 }
-
-.photodiv div:hover .us {
-  opacity: 1;
-  background-color: transparent;
+.photodiv .us {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -390,149 +391,11 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  transition: 0.3s ease-in-out;
 }
-.photodiv div:hover .england {
+.photodiv .us:hover {
   opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .asia {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .china {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .korea {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .dubia {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .malay {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .austra {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .canada {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .london {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .santo {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.photodiv div:hover .mal {
-  opacity: 1;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  transition: 0.3s ease-in-out;
 }
 
 /* .img-parentdiv div > img {
@@ -551,68 +414,86 @@
 
 /* what our coustomer said */
 .customer {
-  height: 80vh;
+  height: 90vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(img/wave.jpg);
-  background-attachment: fixed;
+  background-image: url(img/photowork1.jpg);
   background-position: center;
-  position: relative;
   margin-top: 29%;
-}
-
-.pofcustomer {
-  margin-top: 200px;
-  padding-top: 100px;
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
 }
 .pofcustomer h1 {
   text-align: center;
-  color: goldenrod;
-  font-size: xx-large;
-  margin-top: 30px;
-  font-weight: 800;
-  font-family: sans-serif;
+  padding-top: 100px;
+  margin-top: 50px;
 }
-.pofcustomer p {
+.Nunc {
   text-align: center;
-  width: 80%;
-  display: flex;
-  color: blue;
-  font-size: medium;
-  font-family: tahoma;
-  justify-content: center;
-  align-content: center;
-  align-items: end;
+  padding-top: 48px;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  font-size: large;
+  font-weight: 300;
+  color: white;
 }
-
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
+  background-repeat: no-repeat;
   border-radius: 100%;
   background-image: url(img/mike.jpg);
   background-position: center;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  color: black;
-  text-align: center;
 }
-.john {
-  margin-top: 20px;
+.mike {
+  padding-top: 150px;
+  margin-left: 35px;
+  color: whitesmoke;
+}
+/* .pofcustomer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  justify-content: center;
+  padding-top: 2.5%;
+  height: 100%;
+  width: 95%;
+}
+.pofcustomer h1 {
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+  margin-top: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+  margin-bottom: 130px;
+}
+.pofcustomer p {
+  text-align: center;
+  width: 0%;
+  display: flex;
+  color: black;
+  font-size: medium;
+  font-family: tahoma;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+}
+
+
+.mike {
+  margin-top: 50px;
   font-weight: bold;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-weight: 300;
   font-family: sans-serif;
-}
+} */
 .client {
   background-color: white;
   height: 60vh;
@@ -655,17 +536,16 @@
   flex-wrap: wrap;
   display: flex;
   color: black;
-  gap: 200px;
 }
 .h {
   margin-top: 100px;
   margin-left: 50px;
   font-size: 200;
   font-style: italic;
+  margin-right: 60px;
 }
 .down {
   margin-top: 40px;
-  border: 1px solid black;
   border-radius: 2px;
   height: 60px;
   width: 200px;
@@ -673,16 +553,11 @@
   font-family: sans-serif;
   font-style: normal;
   font-weight: 100;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   align-content: center;
-  margin-top: 100px;
-  margin-left: 30px;
+  margin-top: 80px;
 }
 .down:hover {
   margin-top: 40px;
-  border: 1px solid black;
   border-radius: 2px;
   height: 60px;
   width: 200px;
@@ -690,25 +565,25 @@
   font-family: sans-serif;
   font-style: normal;
   font-weight: 100;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   align-content: center;
-  margin-top: 100px;
-  margin-left: 30px;
+  margin-top: 80px;
   cursor: pointer;
 }
 .foot {
   background-color: black;
-  height: 50vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   text-wrap: wrap;
-  gap: 52%;
+  gap: 35%;
   text-align: center;
   align-items: center;
   align-content: center;
+}
+.foot h3 {
+  color: white;
+  font-family: tahoma;
 }
 .A {
   color: white;
@@ -720,10 +595,19 @@
   align-items: center;
   align-content: center;
 }
+.foot a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.3s ease-in-out;
+}
+.foot a:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+/* 
 .fot {
   color: white;
-  display: flex;
-  display: flex;
+  display: flex; 
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -737,6 +621,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  transition: 0.3s ease-in-out;
   align-content: center;
 }
 .span:hover {
@@ -749,8 +634,16 @@
   align-items: center;
   align-content: center;
   cursor: progress;
-}
+  transition: 0.3s ease-in-out;
+} */
 /* what our coustomer said */
+@media (max-width: 1440px) {
+  .i {
+  }
+}
+@media (max-width: 1024px) {
+}
+
 @media (max-width: 834px) {
   .SEOsub-section-parentdiv {
     flex-wrap: wrap;
@@ -765,8 +658,14 @@
   .writeup p {
     width: 100%;
   }
+  .Nunc {
+    padding-top: 15px;
+  }
+
   .parent-div3SEO-sectiondiv {
     height: auto;
+  }
+  .picture {
   }
 }
 
@@ -795,6 +694,9 @@
     margin-top: 100px;
     height: auto;
   }
+  .down {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 834px) {
@@ -802,9 +704,32 @@
     flex-wrap: wrap;
     width: calc(100% / 1);
   }
-  .john {
-    margin-top: 10px;
+  .mike {
+    margin-top: 15px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+  .seconddiv {
+    flex-wrap: wrap;
+    font-size: normal;
+    display: flex;
+  }
+  .parentdiv {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: normal;
+  }
+}
+@media (max-width: 480px) {
+  .parentdiv1 {
+    font-size: smaller;
+  }
+  .seconddiv {
+    font-size: smaller;
+    font-weight: 10px;
+  }
+  .i {
+    margin-left: 5px;
+    float: left;
+  }
 }
