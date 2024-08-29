@@ -2,48 +2,54 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out;
 }
-.parentdiv {
-  background-color: white;
-  height: 100px;
+
+/* navbar-starts */
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: #910891;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  height: 15vh;
+}
+
+.menu,
+ul {
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+
+.logo {
   font-family: sans-serif;
-  color: gray;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  font-size: 25px;
 }
-.parentdiv1 {
-  gap: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: 5%;
-  align-items: center;
-  margin-top: 2%;
-  align-content: center;
-  font-size: large;
-  font-weight: 40;
+
+.logo h1 {
+  margin: auto;
 }
-.seconddiv {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
+
+.menu div i {
+  color: #910891;
 }
-.Shapely {
-  font-size: xx-large;
-  font-weight: 100;
-  margin-top: 2%;
-  margin-left: 3%;
+
+.ham-menu {
+  margin: auto;
+  display: none;
 }
-.i {
-  color: blue;
-  margin-top: 30px;
-}
+/* navbar-ends */
 
 .parent-div {
   height: 100vh;
@@ -103,7 +109,7 @@
   width: 200px;
   height: 70px;
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 2px;
   display: flex;
   justify-content: center;
@@ -125,16 +131,8 @@
   text-align: center;
 }
 .secondbutton:hover {
-  background-color: black;
-  width: 200px;
-  height: 70px;
-  color: white;
-  border: 1px solid black;
-  border-radius: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-color: white;
+  color: black;
 }
 /* new sec */
 
@@ -604,6 +602,11 @@
   transition: 0.3s ease-in-out;
   color: white;
 }
+.bar {
+  display: none;
+  margin-right: -400px;
+  margin-top: -30px;
+}
 /* 
 .fot {
   color: white;
@@ -638,8 +641,8 @@
 } */
 /* what our coustomer said */
 @media (max-width: 1440px) {
-  .i {
-    
+  .parentdiv1 {
+    display: flex;
   }
 }
 @media (max-width: 1024px) {
@@ -650,24 +653,25 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-  .imagediv {
-    width: 100%;
-  }
-  .writeup {
-    width: 100%;
-  }
-  .writeup p {
-    width: 100%;
-  }
-  .Nunc {
-    padding-top: 15px;
-  }
+}
 
-  .parent-div3SEO-sectiondiv {
-    height: auto;
-  }
-  .picture {
-  }
+.imagediv {
+  width: 100%;
+}
+.writeup {
+  width: 100%;
+}
+.writeup p {
+  width: 100%;
+}
+.Nunc {
+  padding-top: 15px;
+}
+
+.parent-div3SEO-sectiondiv {
+  height: auto;
+}
+.picture {
 }
 
 @media (max-width: 834px) {
@@ -678,6 +682,12 @@
   .Portfolioimg {
     width: 100%;
   }
+  .bar {
+    display: inline-block;
+    margin-right: -400px;
+    margin-top: -30px;
+  }
+
   .Portfolio-writeup {
     width: 100%;
     margin-top: 360px;
@@ -699,6 +709,12 @@
     margin-bottom: 30px;
   }
 }
+/* .parentdiv1 {
+  display: none;
+} */
+/* .i {
+  display: none;
+} */
 
 @media (max-width: 834px) {
   .photodiv {
@@ -710,17 +726,15 @@
   }
 }
 @media (max-width: 768px) {
-  .seconddiv {
-    flex-wrap: wrap;
-    font-size: normal;
-    display: flex;
+  .menu {
+    display: none;
   }
-  .parentdiv {
+  .ham-menu{
     display: flex;
-    flex-wrap: wrap;
-    font-size: normal;
+    color: gray;
   }
 }
+
 @media (max-width: 480px) {
   .parentdiv1 {
     font-size: smaller;
@@ -733,4 +747,15 @@
     margin-left: 5px;
     float: left;
   }
+  /* .bar {
+    display: inline-block;
+    padding-left: 5000px;
+    margin-top: -30px;
+  } */
+  /* .parentdiv1 {
+    display: none;
+  }
+  i {
+    display: none;
+  } */
 }
